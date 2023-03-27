@@ -1,1 +1,1 @@
-# sync-auth-to-gsheet-fb-ext
+The extension to add new FB users to an existing Google SpreadSheet.

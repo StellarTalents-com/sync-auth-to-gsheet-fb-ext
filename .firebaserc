@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "fb-ext-test"
+  },
+  "targets": {},
+  "etags": {
+    "fb-ext-test": {
+      "extensionInstances": {
+      }
+    }
+  }
+}
