@@ -38,11 +38,11 @@ You must create the Google Cloud project, enable Sheets API, create the service 
 
 1. Next, click on "Credentials" in the left-hand sidebar and then click on "Create credentials" > "Service account key."
 
-1. Give your service account a name, select "JSON" as the key type, and click on "Create." This will download a JSON file containing your service account's credentials. Keep this file safe, as you will need it to access the Sheets API. This file contains your service account email address (client_email) and your service account private key (private_key).
+1. After creating the "Credentials" click on the Edit Pencil icon then go to "Keys" Tab and click on "Add Key"  then "add New Key" and select "JSON" as new key type, this will download a JSON file, containing your service account's credentials, keep this file safe, as you will need it to access the Sheets API. This file contains your service account email address (client_email) and your service account private key (private_key).
 
-1. Now, go to Google Drive and create a new Spreadsheet by clicking on "New" > "Google Sheets.". Look at the URL in your web browser's address bar. The URL will be in the following format: https://docs.google.com/spreadsheets/d/[spreadsheet-id]/edit. The [spreadsheet-id] is a unique identifier for your spreadsheet, and it will be a long string of letters and numbers. 
+3. Now, go to Google Drive and create a new Spreadsheet by clicking on "New" > "Google Sheets.". Look at the URL in your web browser's address bar. The URL will be in the following format: https://docs.google.com/spreadsheets/d/[spreadsheet-id]/edit. The [spreadsheet-id] is a unique identifier for your spreadsheet, and it will be a long string of letters and numbers. 
 
-1. Once your spreadsheet is created, click on "Share" in the top-right corner of the page.
+1. Once your spreadsheet is created, click on "Share" in the top-right corner of the page and give a name to your Google Sheets.
 
 1. In the "Share with people and groups" section, enter the email address associated with your service account (which you can find in the JSON file you downloaded earlier).
 
